@@ -21,7 +21,7 @@ function Maze(width, height) {
     // For each column, loop through each Y coordinate and add an element to the array
     for (y = 1; y <= height; y += 1) {
       // Add one element to the array for each space in the column
-      this.spaces[x][y] = '('+ x + ',' + y + ')';
+      this.spaces[x][y] = new MazeSpace(); // Create Array of MazeSpace objects
     }
   }
 }
@@ -39,4 +39,10 @@ Maze.prototype.setStart = function (x, y, orientation) {
 Maze.prototype.setEnd = function (x, y) {
   this.endX = x;
   this.endY = y;
+};
+
+// Method to set wall
+Maze.prototype.setWall = function (x, y, direction) {
+  // Call MazeSpace's setWall object
+  this.spaces[x][y].setWall(direction);
 };
