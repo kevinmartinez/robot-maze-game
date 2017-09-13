@@ -1,0 +1,27 @@
+{
+  "name": "robot-maze-game",
+  "version": "1.0.0",
+  "description": "A game inspired by the Teamtreehouse Workshop about Object-Oriented JavaScript programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmartinez/robot-maze-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmartinez/robot-maze-game/issues"
+  },
+  "homepage": "https://github.com/kevinmartinez/robot-maze-game#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}
